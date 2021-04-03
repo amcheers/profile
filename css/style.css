@@ -1,49 +1,40 @@
 body {
-  background: linear-gradient(#ffd89b, #19547b);
+  background-color: #19547b;
   font-family: 'Oswald', sans-serif;
   color: black;
-  font-size: medium;
-  line-height: 15px;
   text-align: center;
-  height: 700px;
 }
 
 .banner {
+  background: linear-gradient(#ffd89b, #19547b);
   height: 100vh;
+  width: 100%;
 }
 
 h1 {
-font-family: 'Oswald', sans-serif;
 font-size: 60px;
 color: #F7F7F7;
-line-height: 60px;
 margin-top: 60px;
 }
 
 h2 {
-  font-family: 'Lato', sans-serif;
   font-size: 35px;
 color: #F7F7F7;
-line-height: 20px;
 
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
   font-size: 25px;
-color: #F7F7F7;
-line-height: 20px;
+color: #81786e;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
   font-size: 15px;
 color: #F7F7F7;
-line-height: 18px;
 
 }
 
-img {
+.avatar {
   height: 150px;
   width: 150px;
   border-radius: 75px;
@@ -104,3 +95,18 @@ a:hover {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+img {
+  height: 40%; 
+  width: 40%;
+}
+
+i {
+  font-size: 100px;
+  margin-bottom: 15px;
+}
+
+/* .skill-header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+} */
