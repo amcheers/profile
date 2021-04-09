@@ -25,7 +25,7 @@ color: #F7F7F7;
 
 h3 {
   font-size: 25px;
-color: #81786e;
+color: #F7F7F7;
 }
 
 p {
@@ -81,6 +81,11 @@ a img {
 
 .card {
   border-radius: 3%;
+  background: linear-gradient(to right, rgba(255,216,155,0), rgba(255,216,155,1));
+}
+
+.navbar {
+  background: linear-gradient(to right, rgba(255,216,155,0), rgba(255,216,155,1));
 }
 
 .list-inline > li {
