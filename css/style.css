@@ -68,7 +68,8 @@ a img {
 
 .project {
   position: relative;
-  width: 50%;
+  margin-top: 20px;
+  width: 33.3%;
 }
 
 .project:hover .overlay {
